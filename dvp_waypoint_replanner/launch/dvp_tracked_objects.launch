@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="dvp_waypoint_replanner" type="dvp_tracked_objects_node" name="dvp_tracked_objects" output="screen" />
+
+  <rosparam command="load" file="$(find dvp_waypoint_replanner)/config/params.yaml" />
+</launch>

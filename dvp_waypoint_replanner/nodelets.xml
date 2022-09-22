@@ -1,0 +1,17 @@
+<library path="lib/libdvp_waypoint_replanner_nodelets">
+  <class name="dvp_waypoint_replanner/dvp_waypoint_replanner_nodelet"
+         type="dvp_waypoint_replanner::DvpWaypointReplannerNl"
+         base_class_type="nodelet::Nodelet">
+    <description>
+      Dynamic velocity profile waypoint replanner
+    </description>
+  </class>
+
+  <class name="dvp_waypoint_replanner/dvp_tracked_objects_nodelet"
+         type="dvp_tracked_objects::DvpTrackedObjectsNl"
+         base_class_type="nodelet::Nodelet">
+    <description>
+      Tracked objects UDP publisher
+    </description>
+  </class>
+</library>

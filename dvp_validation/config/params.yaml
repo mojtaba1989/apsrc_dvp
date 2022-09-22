@@ -1,0 +1,8 @@
+# IP and port to send velocity profiles to
+server_ip: 127.0.0.1
+server_port: 1551
+receive_buffer_size: 24
+
+# IP and port to listen for incoming tracked objects
+objects_ip: 127.0.0.1
+objects_port: 1552

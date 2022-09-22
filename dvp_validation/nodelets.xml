@@ -1,0 +1,9 @@
+<library path="lib/libdvp_validation_nodelet">
+  <class name="dvp_validation/dvp_validation_nodelet"
+         type="dvp_validation::DvpValidationNl"
+         base_class_type="nodelet::Nodelet">
+    <description>
+      Dynamic velocity profile modification validation
+    </description>
+  </class>
+</library>

@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="dvp_validation" type="dvp_validation_node" name="dvp_validation" output="screen">
+    <rosparam command="load" file="$(find dvp_validation)/config/params.yaml" />
+  </node>
+
+  <node pkg="joy" type="joy_node" name="joy" />
+</launch>

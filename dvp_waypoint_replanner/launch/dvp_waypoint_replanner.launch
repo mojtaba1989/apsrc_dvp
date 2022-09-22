@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="dvp_waypoint_replanner" type="dvp_waypoint_replanner_node" name="dvp_waypoint_replanner" output="screen" />
+
+  <rosparam command="load" file="$(find dvp_waypoint_replanner)/config/params.yaml" />
+</launch>
